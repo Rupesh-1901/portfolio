@@ -15,6 +15,7 @@ export default class Environment {
         };
 
         this.setSunlight();
+        this.switchTheme(this.experience.theme.theme);
         // this.setGUI();
     }
 
@@ -85,7 +86,7 @@ export default class Environment {
         }
     }
 
-    resize() {}
+    resize() { }
 
-    update() {}
+    update() { }
 }
