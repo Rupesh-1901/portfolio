@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
-    "start": "npm run build"
+    "preview": "vite preview --host",
+    "start": "npm run build && npm run preview"
   },
-  "devDependencies": {
+  "dependencies": {
     "@ashthornton/asscroll": "^2.0.7",
     "events": "^3.3.0",
     "gsap": "^3.10.4",
