@@ -6,13 +6,14 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host",
-    "start": "vite preview --host"
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@ashthornton/asscroll": "^2.0.7",
     "events": "^3.3.0",
     "gsap": "^3.10.4",
     "lil-gui": "^0.16.1",
+    "serve": "^14.2.6",
     "three": "^0.141.0",
     "vite": "^2.9.9"
   }
